@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textNameTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="141dp"
+                android:layout_height="69dp"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:text="Delete"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/black"
+                android:fontFamily="casual">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btnReturn"
+                android:layout_width="141dp"
+                android:layout_height="69dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/black"
+                android:fontFamily="casual"
+                android:text="Return"
+                android:textAlignment="center"
+                android:textSize="18sp">
+
+            </Button>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
